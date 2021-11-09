@@ -4,20 +4,13 @@ Minute Pitch
 ## Author
 Caleb bii
 ### Description
-This is an application that will allow users to read news basically from bitcoin, apple and tesla news. As a user of the web application you will be able to:
+This is a Python-Flask Application that allows users to create one minute pitch. You only have 60 seconds to impress someone. 1 minute can make or break you. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
 
-See the available news on the homepage
-User can click on read more to get more news on the source website
-See the image of the article he/she wants to read
-### Endpoints
-You can access data from the application through the following endpoints:
-
-https://newsapi.org/v2/everything?q=tesla&apiKey=72230f51b08c4c04a0338594661d2fb5
 ### Setup and installations
 * Clone Project to your machine
 * Activate a virtual environment on terminal: source virtual/bin/activate
 * Install all the requirements found in requirements file.
-* On your terminal run python3.8 manage.py runserver
+* On your terminal run python3.9 manage.py runserver
 * Access the live site using the local host provided
 ### Prerequisites
 * python3.9
