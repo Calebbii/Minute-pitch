@@ -6,7 +6,6 @@
         
         <div class="col-md-9 all-pitches">
         <h2 class="title-pitches">Posted Pitches</h2>
-        {{macro.displayAllPitches(all_pitches)}}
         </div>
         <div class="col-md-3">
             <h4 class="text-left">
@@ -16,6 +15,9 @@
             {{ macro.displayCategoryList(categories) }}
             </ol>
         </div>
+        <h4><a class="btn btn-primary"
+            href="/add/category"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Category </a>
+        </h4>
     </div>
 </div>
 {% endblock %}
