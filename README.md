@@ -22,7 +22,7 @@ This is a Python-Flask Application that allows users to create one minute pitch.
 * git init
 * git remote add origin <your-repository-url>
 * Create and activate the virtual environment
-* python3.8-venv virtual
+* python3.9-venv virtual
 * source virtual/bin/activate
 * Install dependancies
 * Install dependancies that will create an environment for the app to run pip install -r requirements.txt
@@ -41,4 +41,4 @@ Boostrap
 HTML
 CSS
 ### License
-[MIT Lisence](https://github.com/Calebbii/News-API/blob/add-license-1-1/LICENSE) Copyright (c) 2021 Calebbii.
+[MIT Lisence](https://github.com/Calebbii/Minute-pitch/blob/master/LICENSE) Copyright (c) 2021 Calebbii.
