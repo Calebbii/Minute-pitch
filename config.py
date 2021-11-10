@@ -7,6 +7,8 @@ class Config:
     '''
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/pitch'
 
+    SECRET_KEY = os.environ.get("SECRET_KEY")
+
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     @staticmethod

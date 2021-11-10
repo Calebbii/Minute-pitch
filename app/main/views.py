@@ -63,7 +63,7 @@ def new_category():
 
     if form.validate_on_submit():
         name = form.name.data
-        new_category = PitchCategory(name = name)
+        new_category = PitchCategory(name = name, category = category)
         new_category.save_category()
 
         return redirect(url_for('.index'))

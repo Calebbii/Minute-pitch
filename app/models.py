@@ -1,5 +1,7 @@
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash,check_password_hash
+
+# from app.main.views import category
 from . import login_manager
 from datetime import datetime
 from sqlalchemy.sql import func
@@ -66,6 +68,7 @@ class PitchCategory(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255))
     description = db.Column(db.String(255))
+    category = db.column(db.String(255))
 
     # save pitches
     def save_category(self):
