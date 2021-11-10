@@ -10,7 +10,9 @@ class Config:
     SECRET_KEY = os.environ.get("SECRET_KEY")
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
+    MAIL_SERVER = 'smtp.googlemail.com'
+    MAIL_PORT = 587
+    MAIL_USE_TLS = True
     @staticmethod
     def init_app(app):
         pass
@@ -20,9 +22,7 @@ class ProdConfig(Config):
     '''
     production configuration child class
     '''
-
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/pitch'
-
+    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://moringa:Access@localhost/pitch'
 
 
 class DevConfig(Config):
