@@ -16,7 +16,7 @@ def index():
     print(all_pitches)
 
     title = 'Home- Welcome'
-    return render_template('index.html', title = title, categories=all_category, all_pitches=all_pitches)
+    return render_template('index.html', title = title, all_category=all_category, all_pitches=all_pitches)
 
 
 #Route for adding a new pitch
